@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import random
 
-df = pd.read_excel(r'smokers.xlsx')
+df = pd.read_csv("smokers.csv")
 
 # Gather initial data
 numOfYes = df['smoke'].values.sum()
@@ -12,7 +12,7 @@ diffInYesAndNo = abs(numOfYes - numOfNo)
 
 def generator(x):
     firstOutcome = random.uniform(0, 1)
-    if (firstOutcome > 0.5):
+    if (firstOutcome > 0.6):
         return x
     else:
         secondOutcome = random.uniform(0, 1)
