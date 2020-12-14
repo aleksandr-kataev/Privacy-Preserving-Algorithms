@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import random
 
-df = pd.read_excel(r'test.xlsx')
+df = pd.read_excel(r'smokers.xlsx')
 
 # Gather initial data
 numOfYes = df['smoke'].values.sum()
@@ -45,3 +45,5 @@ print("-------------------------------------------")
 print("Percentage error in Yes is: " + str(percentageErrorInYes))
 print("Percentage error in No is: " + str(percentageErrorInNo))
 print("Percentage error in Diff is: " + str(percentageErrorInDiff))
+
+# Epsilon is 3 to the ratio is ln(3)
