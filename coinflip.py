@@ -12,7 +12,7 @@ diffInYesAndNo = abs(numOfYes - numOfNo)
 
 def generator(x):
     firstOutcome = random.uniform(0, 1)
-    if (firstOutcome > 0.6):
+    if (firstOutcome > 0.5):
         return x
     else:
         secondOutcome = random.uniform(0, 1)
