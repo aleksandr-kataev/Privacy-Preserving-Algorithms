@@ -15,13 +15,15 @@ It involves a conecpt of ε-differntial privacy which refers to a mathematical d
 <br/>
 <sup>For D1 and D2 differing in one element</sup>
 </br>
-</br>
+
 While the definition above is a pure definition of differential privacy , another definition hold true defined as:
 </br>
-</br>
+
 ![approximate differential privacy](https://latex.codecogs.com/svg.image?Pr[A(D1)\in&space;S&space;]&space;\leq&space;e^{\varepsilon&space;}&space;*&space;Pr[A(D2)\in&space;S&space;]&space;&plus;&space;\delta&space;)
+<br/>
+<sup>For D1 and D2 differing in one element</sup>
 </br>
-</br>
+
 This definition is a relaxation to the pure defintion as a variable δ is introduced and is denoted as (ε, δ)-differential privacy. δ is the probability of the data being accidentally leaked meaning that for all adjacent x, y, the absolute value of the privacy loss will be bounded by ε with probability at least 1−δ.
 
 ### Sensitivity
