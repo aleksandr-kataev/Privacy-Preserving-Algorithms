@@ -1,5 +1,7 @@
 # Privacy preserving algorithms in the release of healthcare data
 
+This project my dissertation as a part of computer science course at the University of Essex
+
 ## Abstract
 
 Privacy plays an essential role when it comes to managing healthcare information. People classify
