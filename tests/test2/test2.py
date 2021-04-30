@@ -8,7 +8,7 @@ from gaussian_mech import gaussianMechanism
 from laplace_mech import laplaceMechanism
 
 
-def experiment2(dataset_path, mech_type, epsilon, num_of_runs):
+def test2(dataset_path, mech_type, epsilon, num_of_runs):
     dataset = pd.read_csv(dataset_path)
     normal_sensitivity = 1
     mean_age_sensitivity = (60 - 16) / len(dataset)

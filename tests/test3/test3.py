@@ -26,7 +26,7 @@ DELTA_VALUES = [1/500, 1/1000, 1/10000, 1/100000]
 COLORS = ['r', 'b', 'g', 'c']
 
 
-def experiment3(mech_type, query_type):
+def test3(mech_type, query_type):
     if mech_type == 'laplace' and query_type == 'wage':
         laplace_wage()
     elif mech_type == 'laplace' and query_type == 'combined':

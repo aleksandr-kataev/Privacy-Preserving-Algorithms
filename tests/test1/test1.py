@@ -8,17 +8,17 @@ from gaussian_mech import gaussianMechanism
 from laplace_mech import laplaceMechanism
 
 """
-This experiment involves looking at how the mechanisms implemeted satisfy the definition of ε-differntial privacy. 
+This test involves looking at how the mechanisms implemeted satisfy the definition of ε-differntial privacy. 
 :param mech_type: type of mechnism to test (laplace or gaussian)
 :param query_type: type of query to test (wage or combined)
 :param epsilon: used to calibrate the noise according to the privacy budget
 :param sensitivity: used to specify the sensitivity of a query in order to calibrate the noise
-:param num_of_runs: used to specify the number of run for the experiment
+:param num_of_runs: used to specify the number of run for the test
 :returns: a graph showing how results of queries from adjacent databases differ after applying mechanisms
 """
 
 
-def experiment1(mech_type, query_type, epsilon, sensitivity, num_of_runs):
+def test1(mech_type, query_type, epsilon, sensitivity, num_of_runs):
     dataset = pd.read_csv("../../datasets/small_dataset.csv")
     delta = 1/200
     adj_dataset = dataset.iloc[1:]

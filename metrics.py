@@ -2,7 +2,7 @@ import numpy as np
 from sklearn.metrics import mean_squared_error
 
 """
-Metrics used to calculate the error for the experiments. 
+Metrics used to calculate the error for the tests. 
 """
 
 """

@@ -1,6 +1,6 @@
 # Metrics
 
-The following metrics are used a measure of error in the experiments
+The following metrics are used a measure of error in the tests
 </br>
 </br>
 ## Root mean squared error
