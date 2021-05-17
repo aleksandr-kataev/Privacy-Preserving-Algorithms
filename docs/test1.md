@@ -12,11 +12,13 @@ Queries used:
 
 ## Laplace configuration
 </br>
+
 - ε = 1
 - num_of_runs = 20
 
 ## Gaussian configuration
 </br>
+
 - ε = 1
 - δ = 1/200
 - num_of_runs = 20
