@@ -9,17 +9,14 @@ Queries used:
 | :---        |    :----:   |          :----: |
 | How many people earn more less £10?      | 1       | 1   |
 | How many people are over the age of 35 and earn more than £10?   | 2       |    √2    |
-| Histogram queries   |    1   |    1   |
 
 ## Laplace configuration
 </br>
-
 - ε = 1
 - num_of_runs = 20
 
 ## Gaussian configuration
 </br>
-
 - ε = 1
 - δ = 1/200
 - num_of_runs = 20
