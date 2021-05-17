@@ -12,7 +12,7 @@ Queries used:
 | Query     | Laplace sensitivity | Gaussian sensitivity     |
 | :---        |    :----:   |          :----: |
 | How many people earn more less £10?      | 1       | 1   |
-| How many people are over the age of 35 and earn more than £10?   | 1       |    √2    |
+| How many people are over the age of 35 and earn more than £10?   | 2       |    √2    |
 | Histogram queries   |    1   |    1   |
 
 # Laplace configuration
